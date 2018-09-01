@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64eff56e-9286-43fb-be4a-bb61d752b61d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Main_project$distance_checker.coverage" NAME="distance_checker Coverage Results" MODIFIED="1520510253361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back_end/back_end_v2" />
+    <SUITE FILE_PATH="coverage/Main_project$nlp_nlp.coverage" NAME="nlp_nlp Coverage Results" MODIFIED="1525640517896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back_end/NLP" />
+    <SUITE FILE_PATH="coverage/Main_project$testing.coverage" NAME="testing Coverage Results" MODIFIED="1520616863431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back_end/NLP" />
+    <SUITE FILE_PATH="coverage/Main_project$checking_for_sentence.coverage" NAME="checking_for_sentence Coverage Results" MODIFIED="1523784439842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back_end/NLP" />
+    <SUITE FILE_PATH="coverage/Main_project$universal_checking.coverage" NAME="universal_checking Coverage Results" MODIFIED="1520924848175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back_end/NLP" />
+    <SUITE FILE_PATH="coverage/Main_project$tagging.coverage" NAME="tagging Coverage Results" MODIFIED="1525630323976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Back_end/NLP" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tagging.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back_end/NLP/tagging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="original.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/templates/original.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2465">
+              <caret line="182" column="64" lean-forward="false" selection-start-line="182" selection-start-column="64" selection-end-line="182" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/css1/css1/normalize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6511">
+              <caret line="383" column="13" lean-forward="false" selection-start-line="383" selection-start-column="13" selection-end-line="383" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nlp_nlp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back_end/NLP/nlp_nlp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3774">
+              <caret line="231" column="11" lean-forward="false" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="universal_checking.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back_end/NLP/universal_checking.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="82" column="19" lean-forward="false" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checking_for_sentence.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Back_end/NLP/checking_for_sentence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="82" column="15" lean-forward="false" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vide</find>
+      <find>a</find>
+      <find>was</find>
+      <find>words1</find>
+      <find>debug</find>
+      <find>href</find>
+      <find>src</find>
+      <find>linked_to</find>
+      <find>title</find>
+      <find>video1</find>
+      <find>labnol</find>
+      <find>about</find>
+      <find>transcri</find>
+      <find>speech</find>
+      <find>trans</find>
+      <find>watch</find>
+      <find>XYZ</find>
+      <find>join</find>
+      <find>footer</find>
+      <find>bottom-</find>
+      <find>logo</find>
+      <find>home_</find>
+      <find>header</find>
+      <find>my web</find>
+      <find>gloss</find>
+      <find>nav</find>
+      <find>origi</find>
+      <find>adedoyi</find>
+      <find>print</find>
+      <find>a proto</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>6543</replace>
+      <replace>back_end_v3</replace>
+      <replace>back_end_v2</replace>
+      <replace>6544</replace>
+      <replace>let</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/distance_checker.py" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/testing.py" />
+        <option value="$PROJECT_DIR$/Back_end/Front_end/templates/home.html" />
+        <option value="$PROJECT_DIR$/Back_end/Front_end/templates/test.html" />
+        <option value="$PROJECT_DIR$/Back_end/pytest.ini" />
+        <option value="$PROJECT_DIR$/Back_end/production.ini" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/static/home_js.js" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/static/css/home.css" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/static/js/home_js.js" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/static/css1/home.css" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/templates/home.html" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/tests.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/__init__.py" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/distance_checker.py" />
+        <option value="$PROJECT_DIR$/Back_end/development.ini" />
+        <option value="$PROJECT_DIR$/Back_end/setup.py" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/ConsecutiveNPChunkTagger.py" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/weights.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/templates/original1.html" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/static/css1/css1/home.css" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/DB/Database.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/DB/English_Db.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/DB/ASL_Structure_DB.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/DB/ASL_Db.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/static/js/js/home_js.js" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/tagging.py" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/checking_for_sentence.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/static/css1/css1/normalize.css" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/nlp_nlp.py" />
+        <option value="$PROJECT_DIR$/Back_end/NLP/universal_checking.py" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/templates/original.html" />
+        <option value="$PROJECT_DIR$/Back_end/back_end_v2/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Main_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="back_end_v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="back_end_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="back_end_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="back_end_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Main_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Final_year_project" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\back_end_v2\static\js\js" />
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\back_end_v2\static\img" />
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\back_end_v2\static\css1\css1" />
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\NLP" />
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\back_end_v2\templates" />
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\back_end_v2\static\css1" />
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\back_end_v2\static\css" />
+      <recent name="C:\Users\Ademola Adedoyin\Downloads\MDX Stuff\Thesis\Main_project\Back_end\back_end_v2\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.nlp_nlp">
+    <configuration name="checking_for_sentence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Back_end/NLP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Main_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Back_end/NLP/checking_for_sentence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="nlp_nlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Back_end/NLP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Main_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Back_end/NLP/nlp_nlp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Back_end/NLP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Main_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Back_end/NLP/tagging.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Back_end/NLP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Main_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Back_end/NLP/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="universal_checking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Back_end/NLP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Main_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Back_end/NLP/universal_checking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.testing" />
+      <item index="1" class="java.lang.String" itemvalue="Python.nlp_nlp" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tagging" />
+      <item index="3" class="java.lang.String" itemvalue="Python.universal_checking" />
+      <item index="4" class="java.lang.String" itemvalue="Python.checking_for_sentence" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.nlp_nlp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tagging" />
+        <item index="2" class="java.lang.String" itemvalue="Python.checking_for_sentence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.universal_checking" />
+        <item index="4" class="java.lang.String" itemvalue="Python.testing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64eff56e-9286-43fb-be4a-bb61d752b61d" name="Default" comment="" />
+      <created>1520372827569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520372827569</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36384267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3425926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35493827" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v3/DB/English_Db.py" />
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v3/DB/Database.py" />
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v3/static/theme.css" />
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v3/templates/home.html" />
+    <entry file="file://$PROJECT_DIR$/Back_end/CHANGES.txt" />
+    <entry file="file://$PROJECT_DIR$/Back_end/.coveragerc" />
+    <entry file="file://$PROJECT_DIR$/Back_end/Front_end/templates/home.html" />
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/theme.css" />
+    <entry file="file://$PROJECT_DIR$/Back_end/README.txt" />
+    <entry file="file://$PROJECT_DIR$/Back_end/Front_end/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/speech_recognitionn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speech_recognitionn/recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/.idea/Back_end.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="109" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/css1/css1/icon1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/production.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/templates/or.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/js/home_js.js" />
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/css1/home.css" />
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/css1/css1/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="205" column="28" lean-forward="true" selection-start-line="205" selection-start-column="28" selection-end-line="205" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/DB/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/js/js/picture.jpg" />
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/DB/Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1524226899941" expanded="true" signature="278:310" ph="DROP TABLE I... " />
+            <marker date="1524226899941" expanded="true" signature="363:534" ph="CREATE TABLE... Image_Table" />
+            <marker date="1524226899941" expanded="true" signature="893:957" ph="INSERT INTO Image_Table... " />
+            <marker date="1524226899941" expanded="true" signature="1512:1537" ph="SELECT * FRO... Image_Table" />
+            <marker date="1524226899941" expanded="true" signature="1946:2005" ph="SELECT * FRO... Image_Table" />
+            <marker date="1524226899941" expanded="true" signature="2699:2729" ph="PRAGMA TABLE... " />
+            <marker date="1524226899941" expanded="true" signature="3085:3124" ph="UPDATE Image... " />
+            <marker date="1524226899941" expanded="true" signature="3806:3830" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/DB/ASL_Db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="87" lean-forward="false" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/DB/English_Db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <marker date="1524226899544" expanded="true" signature="280:312" ph="DROP TABLE I... " />
+            <marker date="1524226899544" expanded="true" signature="365:532" ph="CREATE TABLE... Image_Table" />
+            <marker date="1524226899544" expanded="true" signature="894:958" ph="INSERT INTO Image_Table... " />
+            <marker date="1524226899544" expanded="true" signature="1516:1543" ph="SELECT * FRO... English_table" />
+            <marker date="1524226899544" expanded="true" signature="2069:2119" ph="SELECT * FRO... English_table" />
+            <marker date="1524226899544" expanded="true" signature="2906:2955" ph="SELECT * FRO... English_table" />
+            <marker date="1524226899544" expanded="true" signature="3572:3602" ph="PRAGMA TABLE... " />
+            <marker date="1524226899544" expanded="true" signature="3958:3997" ph="UPDATE Image... " />
+            <marker date="1524226899544" expanded="true" signature="4680:4704" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/weights.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/distance_checker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/ConsecutiveNPChunkTagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/DB/ASL_Structure_DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="87" lean-forward="false" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+          <folding>
+            <marker date="1524226899623" expanded="true" signature="280:312" ph="DROP TABLE I... " />
+            <marker date="1524226899623" expanded="true" signature="365:532" ph="CREATE TABLE... Image_Table" />
+            <marker date="1524226899623" expanded="true" signature="894:958" ph="INSERT INTO Image_Table... " />
+            <marker date="1524226899623" expanded="true" signature="1516:1553" ph="SELECT * FRO... ASL_Universal_Structure" />
+            <marker date="1524226899623" expanded="true" signature="2062:2121" ph="SELECT * FRO... ASL_Universal_Structure" />
+            <marker date="1524226899623" expanded="true" signature="2899:2953" ph="SELECT * FRO... ASL_Universal_Structure" />
+            <marker date="1524226899623" expanded="true" signature="3599:3641" ph="PRAGMA TABLE... " />
+            <marker date="1524226899623" expanded="true" signature="3997:4048" ph="UPDATE ASL_U... " />
+            <marker date="1524226899623" expanded="true" signature="4731:4755" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/templates/original1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/js/js/picture.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/js/js/Pictograms-nps-accessibility-sign_language_interpretation-2.svg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/js/js/home_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/js/js/owuew.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/tagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/checking_for_sentence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="82" column="15" lean-forward="false" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/static/css1/css1/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6511">
+          <caret line="383" column="13" lean-forward="false" selection-start-line="383" selection-start-column="13" selection-end-line="383" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/universal_checking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="82" column="19" lean-forward="false" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/NLP/nlp_nlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="231" column="11" lean-forward="false" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/templates/original.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="182" column="64" lean-forward="false" selection-start-line="182" selection-start-column="64" selection-end-line="182" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Back_end/back_end_v2/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

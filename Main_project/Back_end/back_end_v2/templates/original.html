@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href='{{ request.static_url('back_end_v2:static/css1/css1/normalize.css') }}' type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+		<div class="navbar" id="myTopnav Home">
+
+		 <a href="#Contatc">Contact</a>
+		 <a href="#About">About</a>
+		  <a href="#Translator" class="active">Translator</a>
+            <a href="#Home" class="active">Home</a>
+		  <div class="logo">
+                        <img src="{{ request.static_url('back_end_v2:static/js/js/Pictograms-nps-accessibility-sign_language_interpretation-2.svg.png') }}" alt="" style="height: 60px"></div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+
+		<div class="header">
+            <img class="mySlides" src="{{ request.static_url('back_end_v2:static/js/js/01-The-Grammar-Rules-of-Sign-Language-Have-Nothing-to-Do-with-Hands_386538085-Monika-Wisniewska-1024x683.jpg') }}" alt="" style="height: 500px; width: 90%">
+            <img class="mySlides" src="{{ request.static_url('back_end_v2:static/js/js/80-03062015182514-35-55-690-250-1070x390-cropped-dreamstime_s_34718081.jpg') }}" alt="" style="height: 500px; width: 90%">
+            <img class="mySlides" src="{{ request.static_url('back_end_v2:static/js/js/american20sign20language20asl20deaf20abcd11.jpg') }}" alt="" style="height: 500px; width: 90%">
+            <img class="mySlides" src="{{ request.static_url('back_end_v2:static/js/js/497081371.jpg') }}" alt="" style="height: 500px; width: 90%">
+{#		    <h1 class="mySlides" style="height: 400px; width: 100%">My Website</h1>#}
+{#		    <p>A website created by me.</p>#}
+		</div>
+
+		      <h2 class="about-app" id="Translator"> An American Sign Language translator</h2>
+		      <h5 class="app-desc">A prototype American Sign Language(ASL) translator, that translates English to American Sign Language March 3, 2018</h5>
+		      
+			  <div class="fakeimg11" width="100%" >
+          <form id="labnol" method="POST" action="http://localhost:6544/home">
+			  <div class="fakeimg-part11"><div class="fakeimg-text speech">
+                  <textarea rows="4" cols="50" id="transcript" readonly="readonly" placeholder="Speak" name="transcript_value"> </textarea></div>
+			  <div class="fakeimg-text">
+                  <textarea rows="4" cols="50" id="transcript2" readonly="readonly"> </textarea> <div class="avatar" style="width:80px; margin:0 auto;" >
+                  <img onclick="startDictation()" src="{{ request.static_url('back_end_v2:static/js/js/Blackvariant-Button-Ui-Requests-15-Microphone.ico') }}" width="80" height="80" ></div></div>
+				</div>
+          </form>
+			  <div class="fakeimg-part11"> <div class="my-vid">
+                  <video id="video1" width="100%" height="400" controls autoplay>
+		  Your browser does not support HTML5 video.
+		</video>
+
+		<p class="video-text">
+		Watch The Video Now!
+		</p></div></div>
+			  </div>
+			  
+		      <h2 class="about-app">Application Features</h2>
+		      <h5 class="app-desc">A prototype American Sign Language(ASL) translator, that translates English to American Sign Language March 3, 2018</h5>
+		      <div class="features">
+			  <div class="feature-sec">
+			  <div id="main">
+			  <div class="my-icon" style="width: 200px; height: 200px;background-position:center;background-repeat:no-repeat;background-image:url('{{ request.static_url('back_end_v2:static/css1/css1/icon1.png') }}')"> <p class="feature-title">Unique Elements</p>
+			  </div> 
+			
+			  </div>
+
+
+			  </div>
+			  <div class="feature-sec">
+			  <div id="main">
+			  <div class="my-icon" style="width: 200px; height: 200px;background-position:center;background-repeat:no-repeat;background-image:url('{{ request.static_url('back_end_v2:static/css1/css1/icon2.png') }}')"> <p class="feature-title">High Performance</p>
+			  </div> 
+			
+			  </div>
+			  </div>
+			  <div class="feature-sec">
+			 <div id="main">
+			  <div class="my-icon" style="width: 200px; height: 200px;background-position:center;background-repeat:no-repeat;background-image:url( '{{ request.static_url('back_end_v2:static/css1/css1/icon3.png') }}')"> <p class="feature-title">Powerful Options</p>
+			  </div> 
+			
+			  </div>
+			  </div>
+			  </div>
+			  
+		      
+		  
+		
+		
+		<h2 class="about-app" id="About"> About </h2>
+		      <h5 class="app-desc">A prototype American Sign Language(ASL) translator, that translates English to American Sign Language March 3, 2018</h5>
+		      
+			  <div class="fakeimg" width="100%">
+			  <div class="fakeimg-part"><div class="about-text"><p>
+                  American Sign Language (ASL) is a complete, complex language that employs signs made by moving the hands combined with facial expressions and postures of the body. It is the primary language of many North Americans who are deaf and is one of several communication options used by people who are deaf or hard-of-hearing.
+                  </br></br>Adedoyin Ademola is a student of Middlesex University Malta. He is in his final year
+          and this is his thesis. He built a webapp to help translate english text to ASL within a couple of months.</p></div> </div>
+			  <div class="fakeimg-part"> <div class="my-img"> 
+				<img src="{{ request.static_url('back_end_v2:static/js/js/a4f9a3d1-6744-453b-8b90-4f3ffed54b21.jpg') }}" width="370" height="350">
+				<p class="about-img">
+		Adedoyin Ademola <span class="name-style">The Developer </span>
+		</p>
+				
+				</div>
+			  
+			  
+		</div>
+			  </div>
+			  
+		<div class="contact">
+		<div class="contact-sec"> An app created with the purpose to aid </br> communication
+    between the deaf and non deaf. </br>I am really happy with this </br> </br>This project will save money</br>
+	  and also aid communication </br> </div>
+		<div class="contact-sec">
+		<p>Contact</p> </br>
+		Address: 1/7 Royal street, 1248, NY, US </br>
+		Email: info@yourdomain.com </br>
+		Phone: +1 125 148 4785</br></br>
+
+		Monday-Friday: 10am to 8pm
+		</div>
+
+
+		</div>
+		
+
+		<div class="footer" width="100%">
+		  <div class="footer-sec">
+		  <li class="sec-menu">
+		  <ul>Home</ul>
+		  <ul>About</ul>
+		  <ul>Contact</ul>
+		  </div>
+		  <div class="footer-sec">
+		  <div class="bottom-logo">
+              <img src="{{ request.static_url('back_end_v2:static/js/js/Pictograms-nps-accessibility-sign_language_interpretation-2.svg.png') }}" alt="" style="height: 200px">
+          </div>
+		  </div>
+		  <div class="copyright">© 2017-2018 Ademola Inc. A prototype ASL translator All Rights Reserved.</div>
+		  
+		  
+		  
+		  
+		</div>
+	</div>
+{#<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">#}
+</div>		
+</body>
+<script src="{{ request.static_url('back_end_v2:static/js/js/home_js.js') }}"></script>
+<script
+  src="http://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous">
+</script>
+<script> src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"</script>
+<script>
+    console.log('{{ request.static_url('back_end_v2:static/home') }}');
+    let spee = "hello";
+    function startDictation() {
+        if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+      const recognition = new webkitSpeechRecognition();
+{# continuous can be false... meaning it will end once the user stops talking#}
+      recognition.continuous = true;
+      recognition.interimResults = false;
+      recognition.lang = "en-US";
+      recognition.start();
+
+      recognition.onresult = function(e) {
+        document.getElementById('transcript').value
+                                 = e.results[0][0].transcript;
+        let s = e.results[0][0].transcript;
+        recognition.stop();
+        console.log(e.results[0]);
+        document.getElementById('labnol').submit();
+      };
+
+      recognition.onerror = function(e) {
+        recognition.stop();
+      }
+    }
+    else{
+            upgrade();
+        }
+    }
+    document.getElementById('transcript').value
+                                 = 'Your requested sentence is "{{ original_sentence }}"';
+    document.getElementById('transcript2').value
+                                 = 'And the translated sentence is "{{ gloss }}"\n' +
+                                    'and the step used was "{{ step }}"';
+
+
+function tes(length) {
+    console.log('{{ original_sentence }}');
+    sen  = '{{ sentence }}';
+    console.log(spee);
+    if(length < 2){
+        if(sen == 'None'){
+            let myvid = document.getElementById('video1');
+            myvid.style.visibility = "hidden"
+        }
+        else{
+                document.getElementById("video1").src=`http://localhost:6544/static/videos/{{ sentence }}`;
+        }
+
+    }
+    else if(length>1){
+        let myvid = document.getElementById('video1');
+        let myvids = '{{ sentence }}'.split(" ");
+        document.getElementById("video1").src='http://localhost:6544/static/img/'+(myvids[0]);
+        let activeVideo = 1;
+        myvid.addEventListener('ended', function(e) {
+            --activeVideo;
+            ++activeVideo;
+          activeVideo = (activeVideo) % {{ length }};
+          // update the video source and play
+          myvid.src = 'http://localhost:6544/static/img/' + (myvids[activeVideo]) ;
+          myvid.play();
+          ++activeVideo;
+          let delayInMilliseconds = 1800;
+          if(activeVideo == {{ length }}){
+              setTimeout(function() {
+                  myvid.pause();
+                }, delayInMilliseconds);
+          }
+        });
+    }
+}
+
+tes({{ length }});
+
+
+</script>
+</html>

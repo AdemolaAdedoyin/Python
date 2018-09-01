@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing</title>
+    <style>
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<video id="video1" class="" autoplay controls width="500" height="300" ></video>
+<form id="labnol" method="POST" action="http://localhost:6544/home">
+      <div class="speech" style="border: 1px solid;">
+
+        <input type="text" readonly="readonly" name="transcript_value" id="transcript" placeholder="Speak" style="border: 0; width: 240px; display: inline-block; height: 30px" />
+        <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" style="float: right; width: 40px;" />
+        <!--<input type="submit" name="form.delete" value="Delete"/>-->
+      </div>
+</form>
+<div>
+
+<link rel="stylesheet" type="text/css" href="http://localhost:6544/_debug_toolbar/static/toolbar/toolbar_button.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<div id="pDebug">
+    <div  id="pDebugToolbarHandle">
+        <a title="Show Toolbar" id="pShowToolBarButton"
+           href="http://localhost:6544/_debug_toolbar/32333832323531383137373238" target="pDebugToolbar">&#171;</a>
+    </div>
+</div>
+</div>
+</body>
+<script
+  src="http://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous">
+</script>
+<script> src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"</script>
+<script>
+    console.log('{{ request.static_url('back_end_v2:static/home') }}');
+    let spee = "";
+    function startDictation() {
+        if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+      const recognition = new webkitSpeechRecognition();
+{# continuous can be false... meaning it will end once the user stops talking#}
+      recognition.continuous = true;
+      recognition.interimResults = false;
+      recognition.lang = "en-US";
+      recognition.start();
+
+      recognition.onresult = function(e) {
+        document.getElementById('transcript').value
+                                 = e.results[0][0].transcript;
+        spee = e.results[0][0].transcript;
+        recognition.stop();
+        console.log(e.results[0]);
+        document.getElementById('labnol').submit();
+      };
+
+      recognition.onerror = function(e) {
+        recognition.stop();
+      }
+    }
+    else{
+            upgrade();
+        }
+    }
+
+    document.getElementById('transcript').value
+                                 = '{{ gloss }}';
+
+
+function tes(length) {
+    sen  = '{{ sentence }}';
+    console.log(spee);
+    if(length < 2){
+        if(sen == 'None'){
+            let myvid = document.getElementById('video1');
+            myvid.style.visibility = "hidden"
+        }
+        else{
+                document.getElementById("video1").src=`http://localhost:6544/static/videos/{{ sentence }}`;
+        }
+
+    }
+    else if(length>1){
+        let myvid = document.getElementById('video1');
+        let myvids = '{{ sentence }}'.split(" ");
+        document.getElementById("video1").src='http://localhost:6544/static/img/'+(myvids[0]);
+        let activeVideo = 1;
+        myvid.addEventListener('ended', function(e) {
+            --activeVideo;
+            ++activeVideo;
+          activeVideo = (activeVideo) % {{ length }};
+          // update the video source and play
+          myvid.src = 'http://localhost:6544/static/img/' + (myvids[activeVideo]) ;
+          myvid.play();
+          ++activeVideo;
+          let delayInMilliseconds = 1800;
+          if(activeVideo == {{ length }}){
+              setTimeout(function() {
+                  myvid.pause();
+                }, delayInMilliseconds);
+          }
+        });
+    }
+}
+
+tes({{ length }});
+
+
+</script>
+</html>
